@@ -1,61 +1,63 @@
-# Guess
-Word Guessing Game: Guess the word using hill climbing optimization. Choose from 4 difficulty levels. Limited attempts. Hints available. Python &amp; nltk used. Fun and interactive!
+# Word Guessing Game with Hill Climbing
 
-Welcome to the Word Guessing Game with Hill Climbing! This is a simple command-line game where you try to guess a word by providing your own guesses. The game incorporates the hill climbing optimization technique to assist you in finding the correct word.
+Welcome to the Word Guessing Game with Hill Climbing! This is an open-source project implemented in Python that challenges players to guess a target word using the hill climbing optimization technique.
 
-## Overview
+## Description
 
-The Word Guessing Game allows you to select the difficulty level and provides you with a target word. You have a limited number of attempts to guess the word. The game displays the current state of your guesses and provides hints along the way.
+The Word Guessing Game is a collaborative effort of students from the University of Management and Technology (UMT), led by Syed Paiker Hussain Bukhari. This project aims to provide a fun and interactive command-line game where players attempt to guess a word by providing their own guesses. The game incorporates hill climbing optimization to guide players towards the correct word. It offers four difficulty levels, ranging from easy to extreme, with different word lengths and limited attempts. Hints are available to assist players along the way.
 
-## Requirements
+## Features
 
-- Python 3.x
-- nltk (Natural Language Toolkit) library
+- Four difficulty levels: easy, medium, hard, and extreme
+- Random word selection from the nltk English dictionary based on difficulty level
+- Limited attempts to guess the word
+- Hints available to assist players
+- Command-line interface for easy interaction
 
-## Usage
+## Getting Started
 
-1. Clone the repository to your local machine:
+To get started with the Word Guessing Game, follow the installation instructions and usage guidelines in the [README.md](./README.md) file.
 
-   ```shell
-   git clone https://github.com/paiker-hussain/Guess.git
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/paiker-hussain/guess.git
    ```
 
-2. Install the required dependencies. Run the following command in the project directory:
-
-   ```shell
+2. Install the required dependencies:
+   ```
    pip install nltk
    ```
 
 3. Run the game:
-
-   ```shell
-   python guess_game.py
    ```
-
-4. Select the difficulty level: easy, medium, hard, or extreme.
-
-5. Start guessing the word by entering your own words.
-
-6. Use the "hint" command to get a hint. The number of hints available depends on the difficulty level.
-
-7. Keep guessing until you either guess the word correctly or run out of attempts.
-
-## Customization
-
-You can customize the game by modifying the difficulty levels, maximum number of attempts, or word source. Refer to the comments in the code for more details on customization options.
+   python Guess-game.py
+   ```
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
+Contributions to the Word Guessing Game are welcome! To contribute, please follow the guidelines outlined in the [CONTRIBUTING.md](./CONTRIBUTING.md) file. By participating in this project, you agree to abide by the [code of conduct](./CODE_OF_CONDUCT.md).
+
+## Code of Conduct
+
+This project adheres to the Contributor Covenant [Code of Conduct](./CODE_OF_CONDUCT.md). All contributors are expected to uphold this code of conduct. Please report any unacceptable behavior to the project maintainers.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+The Word Guessing Game is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
-```
+## Acknowledgements
 
-Feel free to modify the content according to your needs. Make sure to update the repository URL, installation instructions, and customization details based on your project's specifics.
+- [Natural Language Toolkit (NLTK)](https://www.nltk.org/): Used for word selection and text processing
 
-Save the above content in a file named `README.md` and place it in the root directory of your project. Commit and push this file to GitHub along with your code.
+## Contact
 
-If you have any further questions or need additional assistance, feel free to ask!
+For any inquiries or feedback, please contact the project maintainers at [f2020266499@umt.edu.pk](mailto:f2020266499@umt.edu.pk).
+
+Project Lead:
+- Syed Paiker Hussain Bukhari
+
+Team Members:
+- Faseeh ud Din
+- Munib Ahsan Khan
