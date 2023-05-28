@@ -1,5 +1,4 @@
-import pytest
-from Guess-game import *
+from game import Game
 
 def test_initial_blank_word():
     game = Game("word")
