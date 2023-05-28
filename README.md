@@ -43,6 +43,10 @@ Contributions to the Word Guessing Game are welcome! To contribute, please follo
 
 This project adheres to the Contributor Covenant [Code of Conduct](./CODE_OF_CONDUCT.md). All contributors are expected to uphold this code of conduct. Please report any unacceptable behavior to the project maintainers.
 
+## Security Policy
+
+We take the security of the Word Guessing Game seriously. If you discover any potential vulnerabilities or security issues within the game, please report them to us following our [Security Policy](./SECURITY.md). We appreciate responsible disclosure and will address and resolve any reported vulnerabilities promptly.
+
 ## License
 
 The Word Guessing Game is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
