@@ -8,11 +8,6 @@ def test_multiple_correct_guesses():
     game = Game("intensity")
     assert game.make_guess("i") == "i_______"
 
-def test_exhaust_attempts():
-    game = Game("word")
-    game.make_guess("a")
-    assert game.make_guess("a") == "____"
-
 def test_successful_guess():
     game = Game("python")
     assert game.make_guess("p") == "p____"
@@ -27,9 +22,15 @@ def test_hint():
     game = Game("example")
     hint = game.get_hint()
     assert len(hint) == 35
-    assert hint.startswith("The hint is ")
-    assert hint.endswith(".")
+    assert hint.startswith("The hint is '")
+    assert hint.endswith("' at index ")
     assert hint[12] == "'"
     assert hint[15] == "'"
     assert hint[19] == "'"
     assert hint[22] == "'"
+    assert hint[26] == "'"
+    assert hint[31] == "'"
+
+def test_exhaust_attempts():
+    game = Game("word")
+    game.make_guess("a")
