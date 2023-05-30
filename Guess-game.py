@@ -1,7 +1,7 @@
 import random
 import re
 import nltk
-nltk.downnload('words')
+nltk.download('words')
 from nltk.corpus import words
 
 # Word Guessing Game with Hill Climbing
